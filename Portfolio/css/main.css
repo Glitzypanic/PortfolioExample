@@ -30,6 +30,8 @@ h3 {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
   background-color: #222;
   border-bottom: 1px solid white;
   padding-top: 10px;
@@ -37,6 +39,10 @@ nav {
 }
 nav ul {
   display: inline-block;
+}
+
+nav ul li {
+  padding-top: 12px;
 }
 
 section {
@@ -85,11 +91,16 @@ li {
   padding: 10px 100px 10px 100px;
 }
 
+#logo {
+  padding-top: 0px;
+}
+
 #start {
   background-image: url(../imagenes/Sin\ nombre.png);
   min-height: 280px;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 90px;
 }
 
 #experience {
@@ -104,3 +115,5 @@ li {
 #sm {
   margin-top: 20px;
 }
+
+
