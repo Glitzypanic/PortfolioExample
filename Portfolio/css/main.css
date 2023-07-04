@@ -104,6 +104,15 @@ button {
   padding: 10px 100px 10px 100px;
 }
 
+.masinfo button {
+  background-color: #ffc900;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
 #logo {
   padding-top: 0px;
 }
@@ -129,8 +138,28 @@ button {
   margin-top: 20px;
 }
 
-/* Card portfolio */
+/* Grid about me */
+#aboutme {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
 
+#aboutme h2 {
+  margin-bottom: 15px;
+}
+
+#aboutme .masinfo {
+  margin-top: 15px;
+}
+
+#aboutme .masinfo button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Card portfolio */
 .filaportfolio {
   display: flex;
   flex-direction: row;
@@ -168,20 +197,11 @@ button {
   height: 26px;
 }
 
-.card .masinfo button {
-  background-color: #ffc900;
-  font-weight: 600;
-  padding-left: 15px;
-  padding-right: 15px;
-  float: right;
-}
-
 .card .sep {
   margin: 0 5px 5px 0;
   border: 1px solid #ffc900;
 }
 
-.card button {
-  margin-top: 5px;
-  padding: 5px;
+.card .masinfo button {
+  float: right;
 }
