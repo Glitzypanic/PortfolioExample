@@ -91,6 +91,10 @@ li {
   margin: 5px;
 }
 
+button {
+  border-radius: 10px;
+}
+
 /* CSS ids and classes */
 .hashtag {
   color: #ffc900;
@@ -140,6 +144,11 @@ li {
 .card {
   width: 250px;
   background-color: #191919;
+  border-radius: 15px;
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
 }
 
 .card h3 {
@@ -159,7 +168,7 @@ li {
   height: 26px;
 }
 
-.card .masifo button {
+.card .masinfo button {
   background-color: #ffc900;
   font-weight: 600;
   padding-left: 15px;
@@ -170,4 +179,9 @@ li {
 .card .sep {
   margin: 0 5px 5px 0;
   border: 1px solid #ffc900;
+}
+
+.card button {
+  margin-top: 5px;
+  padding: 5px;
 }
