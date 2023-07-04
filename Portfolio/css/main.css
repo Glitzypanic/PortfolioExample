@@ -1,0 +1,89 @@
+/* general settings */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url();
+}
+
+/* CSS general elements */
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h3 {
+  color: #999;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  text-align: justify;
+}
+
+i {
+  font-size: 25px;
+}
+
+i:hover {
+  color: #ffc900;
+}
+
+a:any-link {
+  color: white
+}
+
+a:-webKit-any-link {
+  color: white;
+}
+
+a:-moz-amy-link {
+  color: white;
+}
+
+li {
+  float: left;
+  margin: 5px;
+}
+
+/* CSS ids and classes */
+.hashtag {
+  color: #ffc900;
+}
+
+.section {
+  padding: 10px 100px 10px 100px;
+}
+
+#start {
+  background-image: url(../imagenes/Sin\ nombre.png);
+  min-height: 280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#experience {
+  background-color: white;
+  color: #222;
+}
+
+#portfolio {
+  border-top: 1px solid #ffc900;
+}
+
+#sm {
+  margin-top: 20px;
+  list-style: none;
+}
