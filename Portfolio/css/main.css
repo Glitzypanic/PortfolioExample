@@ -13,9 +13,7 @@
 body {
   background-color: #222;
   color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 200;
+  font: 200 14px 'Poppins', sans-serif;
 }
 
 h2 {
@@ -95,6 +93,20 @@ button {
   border-radius: 10px;
 }
 
+footer {
+  height: 55px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer ul {
+  display: inline-block;
+}
+
+footer ul li {
+  float: left;
+}
+
 /* CSS ids and classes */
 .hashtag {
   color: #ffc900;
@@ -159,6 +171,11 @@ button {
   padding-right: 30px;
 }
 
+#contact {
+  background-color: #ffc900;
+  color: #222;
+}
+
 /* Card portfolio */
 .filaportfolio {
   display: flex;
@@ -176,7 +193,7 @@ button {
   border-radius: 15px;
 }
 
-.card img {
+.card img, .card video {
   border-radius: 15px 15px 0 0;
 }
 
@@ -241,4 +258,30 @@ button {
 
 .cardexp li {
   height: 30px;
+}
+
+/* Form */
+.itemform {
+  display: grid;
+  grid-template-columns: 150px 350px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.itemform label {
+  font-weight: 700;
+}
+
+.itemform input, .itemform textarea {
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+input[type="submit"] {
+  background-color: #222;
+  border: 1px solid #222;
+  color: white;
+  padding: 10px;
+  grid-column: 2/3;
+  justify-self: end;
 }
